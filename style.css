@@ -1,0 +1,25 @@
+body {
+	background-color: #F0F8FF;
+}
+
+#searchBar {
+  margin: 15px 10px;
+}
+
+.tableWrapper {
+  max-height: 400px;
+  overflow: auto;
+}
+
+#detailedInfo {
+	margin-top: 7%;
+}
+
+.box-shadow--6dp {
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 6px 9px rgba(0, 0, 0, 0.2);
+}
+
+.jumbotron {
+	background-color: #F0F8FF;
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 6px 9px rgba(0, 0, 0, 0.2);
+}
