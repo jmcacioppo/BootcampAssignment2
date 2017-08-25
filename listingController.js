@@ -28,7 +28,8 @@ angular.module('listings').controller('ListingsController', ['$scope', 'Listings
       $scope.listings.push({
         "code" : $scope.addCode,
         "name" : $scope.addBuilding,
-        "address" : $scope.addAddress
+        "address" : $scope.addAddress,
+        "searched" : true
       });
 
       alert(code + " was added to the bottom of your list!");
